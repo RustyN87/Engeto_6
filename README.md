@@ -1,63 +1,49 @@
-🧭 **Projekt 6 – Tři automatizované testy (Playwright)**
-Autor: Radim Novotný  
-📧 r.novotny@centrum.cz  
+🧭 Projekt 6 – Tři automatizované testy (Playwright)
+Autor: Radim Novotný
+📧 r.novotny@centrum.cz
 Engeto Python Akademie – Projekt 6
 
-Tento projekt je součástí Engeto Python Akademie. Jedná se o tři jednoduché automatizované testy webové stránky Engeto.cz pomocí frameworku **Playwright** a pluginu **pytest-playwright**.
+Tento projekt je součástí Engeto Python Akademie. Jedná se o tři jednoduché automatizované testy webové stránky Engeto.cz pomocí frameworku Playwright a pluginu pytest-playwright.
 
----
+🗂️ Co projekt umí
 
-🗂️ **Co projekt umí**
 Projekt obsahuje testy, které:
 
-- Ověřují, zda se stránka načte se správným titulkem (title)  
-- Kontrolují, zda hlavní navigační menu obsahuje odkaz **„Kurzy“**  
-- Ověřují, zda je viditelný hlavní nadpis stránky (`<h1>`)
+Ověřují, zda se stránka načte se správným titulkem (title)
 
----
+Kontrolují, zda hlavní navigační menu obsahuje odkaz „Kurzy“
 
-🧩 **Struktura projektu**
+Ověřují, zda je viditelný hlavní nadpis stránky (<h1>)
 
-| Soubor | Popis |
-|--------|-------|
-| Python.py | Soubor s třemi automatizovanými testy |
-| requirements.txt | Seznam balíčků potřebných pro spuštění testů |
-| README.md | Tento dokument – návod a informace o projektu |
+🧩 Struktura projektu
 
----
+Soubor	Popis
+Python.py	Soubor s třemi automatizovanými testy
+requirements.txt	Seznam balíčků potřebných pro spuštění testů
+README.md	Tento dokument – návod a informace o projektu
 
-▶️ **Spuštění testů**
+▶️ Spuštění testů
 
-1. Nainstalujte potřebné balíčky:
+Nainstalujte potřebné balíčky:
 
-```bash
 pip install -r requirements.txt
-```
 
-2. Nainstalujte prohlížeče pro Playwright:
+Nainstalujte prohlížeče pro Playwright:
 
-```bash
 python -m playwright install
-```
 
-3. Spusťte testy:
+Spusťte testy:
 
-```bash
 python -m pytest Python.py
-```
 
-- Pokud je vše správně, uvidíte:
+Pokud je vše správně, uvidíte:
 
-```
 3 passed
-```
 
----
+🧰 Použité knihovny
 
-🧰 **Použité knihovny**
+pytest
 
-- `pytest`  
-- `playwright`  
-- `pytest-playwright`
+playwright
 
----
+pytest-playwright
